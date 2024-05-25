@@ -13,6 +13,14 @@
 
 ## Installation
 
+You have 2(two) options:
+
+### Render it using the link below to access it online:
+
+https://note-taker-express-js-j2ds.onrender.com
+
+### Clone and run it in your local machine.
+
 After cloning the code to your machine you should:
 
 Have `node.js` installed to your machine.
