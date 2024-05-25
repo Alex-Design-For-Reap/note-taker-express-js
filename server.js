@@ -1,11 +1,13 @@
+const { error } = require('console');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { v4: uuid } = require('uuid');
-const notesData = require('./db/db.json');
+
+const port = process.env.port || 3001;
 
 const app = express();
-const port = process.env.port || 3001;
+
 
 app.use(express.json());
 
@@ -19,14 +21,12 @@ app.get(`/notes`, (req, res) => {
 app.get('/api/notes', (req, res) => {
     console.log(`${req.method} request received to get notes`);
 
-    fs.readFile('./db/db.json'), 'utf8', (err, data) => {
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err);
-            return res.status(500).json({ error: 'Failed to read notes' });
         }
-        const notes = JSON.parse(data);
-        res.json(notes);
-    }
+        res.json(JSON.parse(data));
+    });
 });
 
 app.post('/api/notes', (req, res) => {

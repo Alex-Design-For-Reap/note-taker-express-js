@@ -1,28 +1,17 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
+    "id": "a629ed88-b01b-40c6-9522-4f84569adec0",
+    "title": "Boot camp challenge",
+    "text": "Organise to work on the next challenge for the coding boot camp."
   },
   {
-    "title": "Call me tomorrow",
-    "text": "Please call me tomorrow"
+    "id": "809f0451-cfc6-4568-b29b-0b917903f3e7",
+    "title": "Watch missed classes",
+    "text": "Find time to watch those missed classes regarding last week!"
   },
   {
-    "title": "sync with Mary",
-    "text": "Please sync with Mary"
-  },
-  {
-    "title": "another task title",
-    "text": "another task text"
-  },
-  {
-    "id": "dfe9f39a-51ca-4df8-bb06-47a65be31105",
-    "title": "cdcdc",
-    "text": "cdcd"
-  },
-  {
-    "id": "44b57992-4316-424f-98f5-b4c1f6a5d719",
-    "title": "jnjn",
-    "text": "jnjn"
+    "id": "5f50832f-363a-4cd7-86f7-255b34e682d1",
+    "title": "Enjoy the weekend with Migue",
+    "text": "Organise to enjoy the weekend with my 3 years old son. Let's go out!"
   }
 ]
